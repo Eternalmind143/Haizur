@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - [Nama Kamu]</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body class="dark-mode">
+    <!-- Dark/Light Mode Toggle -->
+    <div class="theme-switch-wrapper">
+        <span class="theme-label"><i class="fas fa-moon"></i> Mode</span>
+        <label class="theme-switch">
+            <input type="checkbox" id="theme-toggle">
+            <span class="slider round"></span>
+        </label>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">Portfolio<span class="blue">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#projects">Projek</a></li>
+                <li><a href="#skills">Skill</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+            <button class="menu-toggle"><i class="fas fa-bars"></i></button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="futuristic">Halo, Saya <span class="blue">Haizur</span></h1>
+                <p class="subtitle">Junior Developer yang bersemangat dalam menciptakan solusi digital yang inovatif dan efisien</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn primary">Lihat Projek <i class="fas fa-rocket"></i></a>
+                    <a href="#contact" class="btn secondary">Hubungi Saya <i class="fas fa-paper-plane"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="glowing-circle">
+                    <i class="fas fa-code blue-icon"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">Tentang <span class="blue">Saya</span></h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <i class="fas fa-user-graduate blue-icon"></i>
+                    <h3>Latar Belakang</h3>
+                    <p>Saya seorang pemula di dunia development yang sedang mengeksplorasi berbagai teknologi. Fokus pada pembuatan website yang responsif dan user-friendly.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-bullseye blue-icon"></i>
+                    <h3>Tujuan</h3>
+                    <p>Ingin berkembang menjadi Fullstack Developer yang mampu meng-handle projek dari frontend hingga backend.</p>
+                </div>
+                <div class="about-card">
+                    <i class="fas fa-heart blue-icon"></i>
+                    <h3>Passion</h3>
+                    <p>Menyelesaikan masalah melalui kode, belajar teknologi baru, dan berkolaborasi dalam tim pengembangan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section dark-bg">
+        <div class="container">
+            <h2 class="section-title">Projek <span class="blue">Saya</span></h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-img">Website Portfolio</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Portfolio Website</h3>
+                        <p>Website portfolio responsif dengan dark/light mode. Dibuat dengan HTML, CSS, JavaScript.</p>
+                        <div class="tech-tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                        <a href="#" class="project-link">Lihat Detail <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-img">To-Do App</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Task Manager App</h3>
+                        <p>Aplikasi manajemen tugas dengan fitur CRUD dan penyimpanan lokal.</p>
+                        <div class="tech-tags">
+                            <span>JavaScript</span>
+                            <span>LocalStorage</span>
+                            <span>CSS Grid</span>
+                        </div>
+                        <a href="#" class="project-link">Lihat Detail <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="placeholder-img">Landing Page</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Product Landing Page</h3>
+                        <p>Halaman penjualan produk dengan desain modern dan optimasi SEO.</p>
+                        <div class="tech-tags">
+                            <span>Bootstrap</span>
+                            <span>SEO</span>
+                            <span>Responsive</span>
+                        </div>
+                        <a href="#" class="project-link">Lihat Detail <i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Skill & <span class="blue">Teknologi</span></h2>
+            <div class="skills-container">
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <i class="fab fa-html5"></i>
+                        <span>HTML5</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 90%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <i class="fab fa-css3-alt"></i>
+                        <span>CSS3</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <i class="fab fa-js"></i>
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <i class="fab fa-git-alt"></i>
+                        <span>Git</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 80%"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-header">
+                        <i class="fas fa-database"></i>
+                        <span>MySQL</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 70%"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section dark-bg">
+        <div class="container">
+            <h2 class="section-title">Hubungi <span class="blue">Saya</span></h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope blue-icon"></i>
+                        <div>
+                            <h3>Email</h3>
+                            <p>emailkamu@domain.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone blue-icon"></i>
+                        <div>
+                            <h3>Telepon</h3>
+                            <p>+62 812-3456-7890</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt blue-icon"></i>
+                        <div>
+                            <h3>Lokasi</h3>
+                            <p>Jakarta, Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <input type="text" placeholder="Nama Lengkap" required>
+                    <input type="email" placeholder="Email" required>
+                    <input type="text" placeholder="Subjek" required>
+                    <textarea placeholder="Pesan Anda..." rows="5" required></textarea>
+                    <button type="submit" class="btn primary">Kirim Pesan <i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 <span class="blue">[Nama Kamu]</span>. All rights reserved.</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
